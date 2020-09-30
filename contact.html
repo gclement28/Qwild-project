@@ -2,31 +2,37 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
+  
 
 </header>
 
 <main>
-    <div class="title">
+    <div class="title-contact">
         <h1>Contact us </h1>
         <h2>You can ask us anything here</h2>
+    </div>
+
+    <div class="container-contact">
+
+  <form id="contactform" action="post">
+
+    <input name="name" type="text" class="form-control" placeholder="Your name" required><br>
+    <input name="email" type="email" class="form-control" placeholder="Your email" required><br>
+    <textarea name="message" class="form-control" placeholder="message" rows="4" required></textarea><br>
+    <input type="submit" class="form-control submit" value="SEND MESSAGE">        
+   
+  </form>
   </div>
-
-  <div >
-    <form id="contactform" action="post">
-
-      <input name="name" type="text" class="form-control" placeholder="Your name" required><br>
-      <input name="email" type="email" class="form-control" placeholder="Your email" required><br>
-      <textarea name="message" class="form-control" placeholder="message" rows="4" required></textarea><br>
-      <input type="submit" class="form-control submit" value="SEND MESSAGE">        
-     
-    </form>
-</div>
-</main>
+    </div>
+  </main>
+  
 
 <footer> 
 </footer>
