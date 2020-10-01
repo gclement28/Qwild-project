@@ -1,4 +1,6 @@
 
+
+
  
 
 
@@ -59,3 +61,5 @@ form .submit:hover{
     color:rgb(38, 32,70);
     cursor: pointer;
 }
+
+/*@media screen and (max-width:1024px)/*
