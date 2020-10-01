@@ -1,21 +1,17 @@
-
-
-
- 
-
-
-.title-contact{
+.contact-title{
     text-align: center;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     padding-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
    
-
 }
 
 
 
+
 form{
-    margin-top: 50px;
+    padding-top: 25px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -24,37 +20,30 @@ form{
     height: auto;
     
 }
-
-
-    
- .form-control{
-  width: 60%;
-  background: transparent;
-  border: none;
-  outline:none;
-  border-bottom: 1px solid gray;
+.form-control{
+    width: 80%;
+    background: transparent;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid gray;
     color:white;
-    font-size: 18px;
-    margin-bottom:16px;
-    
-
 }
 
 input{
     height: 45px;
 }
 
+
 form .submit{
+    width: 80%;
+    height: 35px;
     background: #36a9e1;;
     border-color: transparent;
-    color:white;
-    font-size: 20px;
     font-weight: bold;
+    color:white;
     letter-spacing: 2px;
-    height: 50px;
-    margin-top: 20px;
-    width: 20%;
 }
+
 form .submit:hover{
 
     background:grey;
@@ -62,4 +51,43 @@ form .submit:hover{
     cursor: pointer;
 }
 
-/*@media screen and (max-width:1024px)/*
+
+
+@media(min-width:700px){
+    form{
+        margin-top: 50px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        
+    
+    }
+    .form-control{
+      font-size: 18px;
+      margin-bottom:16px;
+      width: 60%;
+      border: none;
+      outline:none;
+      border-bottom: 1px solid gray;
+      font-size: 18px;
+      margin-bottom:16px;
+      
+    
+    }
+
+    .form-control:active{
+        box-shadow: blue;
+    }
+
+    
+    form .submit{
+        height: 50px;
+        font-size: 20px;
+        margin-top: 20px;
+        width: 20%;
+        font-size: 20px;
+        
+    }}
