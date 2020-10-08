@@ -116,8 +116,6 @@ html {
   top: -14px;
 }
 
-
-
 @media screen and (min-width: 768px) {
   body,
   html {
@@ -172,7 +170,7 @@ footer {
   box-shadow: 0px -1px 3px gray;
   height: 100px;
   width: 100%;
-  position: relative;
+  position: absolute;
   bottom: 0;
   display: flex;
   justify-content: space-between;
@@ -256,92 +254,77 @@ footer {
   }
 }
 
-
-
 /*contact part */
 
-#error{
+#error {
   color: red;
   font-style: italic;
-  font-family:  Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
-.form-control{
+.form-control {
   width: 80%;
   background: transparent;
   border: none;
-  outline:none;
+  outline: none;
   border-bottom: 1px solid gray;
-  color:black;
+  color: black;
 }
 
-input{
+input {
   height: 45px;
 }
 
-
-form .submit{
-  
+form .submit {
   width: 80%;
   height: 35px;
-  background: #36a9e1;;
+  background: #36a9e1;
   border-color: transparent;
-  font-family:Helvetica, sans-serif;
-  color:white;
+  font-family: Helvetica, sans-serif;
+  color: white;
   letter-spacing: 2px;
 }
 
-form .submit:hover{
-
-  background:grey;
-  color:rgb(38, 32,70);
+form .submit:hover {
+  background: grey;
+  color: rgb(38, 32, 70);
   cursor: pointer;
 }
 
-.container-contact form{
-  padding-top: 25px;
+.container-contact form {
+  padding-top: 50px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 250px;
+  height: 500px;
   padding-bottom: 25px;
-  
-  
 }
 
-@media screen and (min-width:768px){
-
-  #contactform{
-    padding-top: 100px;
-    height: 400px;
-}
-
-
-  .container-contact{
+@media screen and (min-width: 768px) {
+  #contactform {
+    padding-top: 50px;
     height: 520px;
-    
-}
-  form .submit{
+  }
+
+  .container-contact {
+    height: 400px;
+  }
+  form .submit {
     height: 50px;
     font-size: 20px;
     margin-top: 20px;
     width: 20%;
     font-size: 20px;
-    
-}
+  }
 
-
-
-
-  .form-control{
+  .form-control {
     font-size: 18px;
     width: 60%;
     border: none;
-    outline:none;
+    outline: none;
     border-bottom: 1px solid gray;
     font-size: 18px;
-}
-
+  }
 }
