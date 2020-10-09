@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Header</title>
+    <link rel="stylesheet" href="style-home.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="container">
+          <div class="header-navbar">
+            <div class="header-navbar-logo">
+              <a href="#"><img src="img/LOGO_QWILD@4x.png" width="150px" /></a>
+            </div>
+            <div class="header-navbar-menu">
+              <a class="header-menu-link" href="#"
+                ><i class="fas fa-home"></i> Home</a
+              >
+              <a class="header-menu-link" href="#">Quizz</a>
+              <a class="header-menu-link" href="#">About</a>
+              <a class="header-menu-link" href="#">Contact</a>
+            </div>
+
+            <div class="header-navbar-menu-2">
+              <a class="header-menu-link-2" href="#"
+                ><i class="fas fa-home"></i> Home</a
+              >
+              <a class="header-menu-link-2" href="#">Quizz</a>
+              <a class="header-menu-link-2" href="#">About</a>
+              <a class="header-menu-link-2" href="#">Contact</a>
+            </div>
+            <div class="header-navbar-toggle">
+              <span class="header-navbar-toggle-icons"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+        crossorigin="anonymous"
+      ></script>
+      <script src="header.js"></script>
+    </header>
+
+    <div class="slider">
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>"Chi-Fou-Mi"</h1>
+          <p>The famous game "stone sheet scissors" was created in China</p>
+        </div>
+        <img
+          src="img/Capture d’écran 2020-10-08 à 12.06.41.png"
+          style="width: 100%; height: 100%"
+        />
+      </div>
+
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>"Can't relate"</h1>
+          <p>The creator of Wonder Woman also created the lie detector !</p>
+        </div>
+        <img
+          src="img/wonderwoman.png"
+          style="width: 100%; height: 100%"
+        />
+      </div>
+
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>"Let's free the letters"</h1>
+          <p>Until 2013 the letter Q, W and H were forbidden to use in Turkish</p>
+        </div>
+        <img
+          src="img/AdobeStock_302002385.jpg"
+          style="width: 100%; height: 100%"
+        />
+      </div>
+
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>"Bad life for pigs"</h1>
+          <p>It's forbidden to paint in pink your house in Singapore</p>
+        </div>
+        <img
+          src="img/Capture d’écran 2020-10-08 à 12.03.33.png"
+          style="width: 100%; height: 100%"
+        />
+      </div>
+
+      <div class="myslide fade">
+        <div class="txt">
+          <h1>"Let's dance !"</h1>
+          <p>During his high school time  George W. Bush was the cheerleaders' Captain</p>
+        </div>
+        <img
+          src="img/cheerleader copie.jpg"
+          style="width: 100%; height: 100%"
+        />
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="dotsbox" style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+      </div>
+    </div>
+
+    <div class="box-button">
+      <input
+        onclick="clickMe()"
+        id="btn-home"
+        type="submit"
+        value="START THE QUIZZ"
+      />
+    </div>
+    <script src="home.js"></script>
+  </div>
+
+  
+
+    <footer>
+      <nav class="menufooter">
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="quizz.html">Quizz</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="social">
+        <img class="tw" src="img/tw.png" width="32px" />
+        <img class="fb" src="img/fb.png" width="32px" />
+        <img class="insta" src="img/insta.png" width="32px" />
+      </div>
+    </footer>
+  </body>
+</html>
