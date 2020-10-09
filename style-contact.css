@@ -259,7 +259,7 @@ footer {
 #error {
   color: red;
   font-style: italic;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Avenir', sans-serif;
 }
 
 .form-control {
@@ -269,6 +269,7 @@ footer {
   outline: none;
   border-bottom: 1px solid gray;
   color: black;
+  font-family: 'Avenir Light', sans-serif;
 }
 
 input {
@@ -278,9 +279,10 @@ input {
 form .submit {
   width: 80%;
   height: 35px;
+  border-radius: 5px;
   background: #36a9e1;
   border-color: transparent;
-  font-family: Helvetica, sans-serif;
+  font-family: 'Avenir Light', sans-serif;
   color: white;
   letter-spacing: 2px;
 }
@@ -292,14 +294,12 @@ form .submit:hover {
 }
 
 .container-contact form {
-  padding-top: 50px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 500px;
-  padding-bottom: 25px;
 }
 
 @media screen and (min-width: 768px) {
