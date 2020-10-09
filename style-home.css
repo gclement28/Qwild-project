@@ -434,6 +434,10 @@ img {
   outline: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 #btn-home:hover {
   cursor: pointer;
   box-shadow: 1px 1px 3px gray, -1px -1px 3px gray;
